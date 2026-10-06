@@ -1,1 +1,26 @@
-/* Add CSS Styling */
+* {
+  box-sizing: border-box;
+} /* Add CSS Styling */
+
+p {
+  background-color: lightpink;
+  font-family:
+    Verdana,
+    DejaVu Sans,
+    sans-serif;
+}
+
+.number-two {
+  color: blue;
+  font-size: 32px;
+}
+
+p:nth-of-type(2) {
+  font-size: 24px;
+}
+
+div:nth-of-type(2) {
+  background-color: lightgreen;
+  font-size: 24px;
+  font-weight: bold;
+}
